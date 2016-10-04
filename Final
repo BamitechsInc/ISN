@@ -1,0 +1,8 @@
+from turtle import*
+txt=input("Inscrivez votre message (majuscules uniquement)")
+i=0
+while i<len(txt) :
+  if txt[i]='A' :
+    #
+  
+mainloop()
