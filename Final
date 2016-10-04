@@ -2,7 +2,12 @@ from turtle import*
 txt=input("Inscrivez votre message (majuscules uniquement)")
 i=0
 while i<len(txt) :
-  if txt[i]='A' :
+  if txt[i]=' ' :
+    forward(70)
+  elif
     #
-  
+  else :
+    print("caractère non supporté")
+    break
+  i+1=i
 mainloop()
