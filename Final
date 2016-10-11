@@ -128,6 +128,6 @@ while i<len(txt) :
         backward(45)
     else :
         print("caractère non supporté")
-        #break ?
+        break
     i+1=i
 mainloop()
