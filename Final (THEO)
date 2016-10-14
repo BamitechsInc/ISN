@@ -1,0 +1,896 @@
+
+txt,color,bld=input("Inscrivez votre message (majuscules uniquement)"),input("Entrez une couleur"),int(input("Entrez une épaisseur de trait"))
+
+i=0
+
+pencolor(color)
+
+speed('fastest')
+
+
+
+width(bld)
+
+up()
+
+goto(-600,0)
+
+ht()
+
+while i<len(txt) :
+
+    if txt[i]==' ':
+
+        forward(70)
+
+    elif txt[i]=='A':
+
+        up()
+
+        right(90)
+
+        forward(100)
+
+        left(180)
+
+        down()
+
+        right(19)
+
+        forward(107)
+
+        right(141)
+
+        forward(107)
+
+        right(180)
+
+        forward(59)
+
+        left(70)
+
+        forward(32)
+
+        up()
+
+        right(180)
+
+        forward(51)
+
+        left(90)
+
+        forward(43)
+
+        right(90)
+
+        forward(10)
+
+    elif txt[i]=='B':
+
+        up()
+
+        right(90)
+
+        forward(100)
+
+        left(180)
+
+        down()
+
+        forward(100)
+
+        right(90)
+
+        forward(40)
+
+        circle(-25,180)
+
+        forward(40)
+
+        right(180)
+
+        forward(40)
+
+        circle(-25,180)
+
+        forward(40)
+
+        up()
+
+        right(180)
+
+        forward(70)
+
+        left(90)
+
+        forward(100)
+
+        right(90)
+
+        forward(10)
+
+    elif txt[i]=='C':
+
+        up()
+
+        right(90)
+
+        forward(100)
+
+        right(90)
+
+        down()
+
+        right(180)
+
+        up()
+
+        forward(60)
+
+        down()
+
+        circle(50,-180)
+
+        up()
+
+        right(180)
+
+        forward(20)
+
+    elif txt[i]=='D':
+
+        up()
+
+        right(90)
+
+        forward(100)
+
+        right(90)
+
+        down()
+
+        right(90)
+
+        forward(100)
+
+        right(90)
+
+        circle(-50,180)
+
+        up()
+
+        right(180)
+
+        forward(70)
+
+        left(90)
+
+        forward(100)
+
+        right(90)
+
+        forward(10)
+
+    elif txt[i]=='E':
+
+        up()
+
+        right(90)
+
+        forward(100)
+
+        right(90)
+
+        down()
+
+        right(90)
+
+        forward(100)
+
+        right(90)
+
+        forward(70)
+
+        right(180)
+
+        forward(70)
+
+        left(90)
+
+        forward(50)
+
+        left(90)
+
+        forward(55)
+
+        right(180)
+
+        forward(55)
+
+        left(90)
+
+        forward(50)
+
+        left(90)
+
+        forward(70)
+
+        up()
+
+        left(90)
+
+        forward(100)
+
+        right(90)
+
+        forward(10)
+
+    elif txt[i]=='F':
+
+        up()
+
+        right(90)
+
+        forward(100)
+
+        right(90)
+
+        down()
+
+        right(90)
+
+        forward(100)
+
+        right(90)
+
+        forward(70)
+
+        right(180)
+
+        forward(70)
+
+        left(90)
+
+        forward(43)
+
+        left(90)
+
+        forward(55)
+
+        up()
+
+        forward(15)
+
+        left(90)
+
+        forward(43)
+
+        right(90)
+
+        forward(10)
+
+    elif txt[i]=='G':
+
+        up()
+
+        right(90)
+
+        forward(100)
+
+        right(90)
+
+        down()
+
+        right(180)
+
+        up()
+
+        forward(60)
+
+        down()
+
+        circle(50,-180)
+
+        up()
+
+        circle(50,-180)
+
+        down()
+
+        left(90)
+
+        forward(35)
+
+        right(90)
+
+        forward(5)
+
+        right(180)
+
+        forward(10)
+
+        up()
+
+        right(180)
+
+        forward(20)
+
+        left(90)
+
+        forward(65)
+
+        right(90)
+
+        forward(10)
+
+    elif txt[i]=='H':
+        down()
+        right(90)
+
+        forward(100)
+
+        right(180)
+
+        forward(50)
+
+        right(90)
+
+        forward(70)
+
+        left(90)
+
+        forward(50)
+
+        right(180)
+
+        forward(100)
+
+        up()
+
+        right(180)
+
+        forward(100)
+
+        right(90)
+
+        forward(10)
+
+    elif txt[i]=='I':
+
+        up()
+
+        right(90)
+
+        forward(100)
+
+        left(90)
+
+        forward(15)
+
+        down()
+
+        forward(40)
+
+        left(180)
+
+        forward(20)
+
+        right(90)
+
+        forward(100)
+
+        left(90)
+
+        forward(20)
+
+        right(180)
+
+        forward(40)
+
+        up()
+
+        forward(15)
+
+    elif txt[i]=='J':
+
+        up()
+
+        forward(60)
+
+        down()
+
+        left(180)
+
+        forward(50)
+
+        left(180)
+
+        forward(25)
+
+        right(90)
+
+        forward(80)
+
+        up()
+
+        right(90)
+
+        forward(40)
+
+        left(90)
+
+        down()
+
+        circle(20,180)
+
+        forward(80)
+
+        right(90)
+
+        up()
+
+        forward(35)
+
+    elif txt[i]=='K':
+
+        up()
+
+        forward (5)
+
+        down()
+
+        right(90)
+
+        forward(100)
+
+        left(180)
+
+        forward(50)
+
+        right(40)
+
+        forward(65)
+
+        left(180)
+
+        forward(65)
+
+        left(80)
+
+        forward(65)
+
+        left(180)
+
+        forward(65)
+
+        right(40)
+
+        forward(50)
+
+        right(90)
+
+        up()
+
+        forward(65)
+
+    elif txt[i]=='L':
+
+        up()
+
+        forward(10)
+
+        down()
+
+        right(90)
+
+        forward(100)
+
+        left(90)
+
+        forward(60)
+
+        up()
+
+        forward(10)
+
+        left(90)
+
+        forward(100)
+
+        right(90)
+
+    elif txt[i]=='M':
+
+        right(90)
+
+        forward(100)
+
+        left(90)
+
+        forward(5)
+
+        down()
+
+        left(90)
+
+        forward(100)
+
+        right(135)
+
+        forward(40)
+
+        left(90)
+
+        forward(40)
+
+        right(135)
+
+        forward(100)
+
+        left(180)
+
+        up()
+
+        forward(100)
+
+        right(90)
+
+        forward(15)
+
+    elif txt[i]=='N':
+
+        up()
+
+        right(90)
+
+        forward(100)
+
+        left(90)
+
+        forward(5)
+
+        down()
+
+        left(90)
+
+        forward(100)
+
+        right(150)
+
+        forward(115)
+
+        left(150)
+
+        forward(100)
+
+        right(90)
+
+        up()
+
+        forward(15)
+
+    elif txt[i]=='O':
+
+        up()
+
+        forward(50)
+
+        right(90)
+
+        forward(100)
+
+        left(90)
+
+        forward(5)
+
+        left(90)
+
+        forward(25)
+
+        down()
+
+        forward(50)
+
+        circle(25,180)
+
+        forward(50)
+
+        circle(25,180)
+
+        up()
+
+        forward(75)
+
+        right(90)
+
+        forward(15)
+
+    elif txt[i]=='P':
+        right(90)
+        forward(100)
+        right(180)
+        down()
+        forward(100)
+        right(180)
+        forward(51.88)
+        left(90)
+        up()
+        forward(10)
+        down()
+        circle(26.82,200.9232)
+        up()
+        circle(26.82,137.2242)
+        down()
+        circle(26.82,33.7506)
+        up()
+        right(69.11)
+        forward(58.39)
+        left(56.74)
+        forward(5)
+        left(90)
+        forward(100)
+        right(89.49)
+
+    elif txt[i]=='Q':
+
+        forward(50)
+
+        right(90)
+
+        forward(100)
+
+        left(90)
+
+        forward(5)
+
+        left(90)
+
+        forward(25)
+
+        down()
+
+        forward(50)
+
+        circle(25,180)
+
+        forward(50)
+
+        circle(25,180)
+
+        up()
+
+        left(90)
+
+        forward(25)
+
+        down()
+
+        left(135)
+
+        forward(35)
+
+        up()
+
+        left(135)
+
+        forward(100)
+
+        right(90)
+
+        forward(15)
+
+    elif txt[i]=='R':
+        right(90)
+        forward(100)
+        right(180)
+        down()
+        forward(100)
+        right(180)
+        forward(51.88)
+        left(90)
+        up()
+        forward(10)
+        down()
+        circle(26.82,200.9232)
+        up()
+        circle(26.82,137.2242)
+        down()
+        circle(26.82,33.7506)
+        right(69.11)
+        forward(58.39)
+        up()
+        left(56.74)
+        forward(5)
+        left(90)
+        forward(100)
+        right(89.49)
+
+    elif txt[i]=='S':
+        forward(30)
+
+        backward(30)
+
+        right(90)
+
+        forward(100)
+
+        left(90)
+
+        forward(18)
+
+        down()
+
+        forward(15)
+
+        circle(25, 170)
+
+        forward(5)
+
+        right(180)
+
+        circle(25, -170)
+
+        right(180)
+
+        forward(18)
+
+        up()
+
+        forward(30)
+
+    elif txt[i]=='T':
+        down()
+
+        forward(70)
+
+        backward(35)
+
+        right(90)
+
+        forward(100)
+
+        up()
+
+        backward(100)
+
+        left(90)
+
+        forward(50)
+
+    elif txt[i]=='U':
+
+        forward(5)
+        down()
+
+        right(90)
+
+        forward(70)
+
+        circle(30, 180)
+
+        forward(70)
+
+        up()
+
+        right(90)
+
+        forward(20)
+
+    elif txt[i]=='V':
+
+        down()
+
+        right(70.71)
+
+        forward(105.95)
+
+        right(38.58)
+
+        backward(105.95)
+
+        left(109.29)
+
+        up()
+
+        forward(15)
+
+    elif txt[i]=='W':
+        down()
+
+        right(82.03)
+
+        forward(100.98)
+
+        left(156.39)
+
+        forward(77.88)
+
+        right(148.72)
+
+        forward(77.88)
+
+        left(156.39)
+
+        forward(100.98)
+
+        right(82.03)
+
+        up()
+        forward(15)
+
+    elif txt[i]=='X':
+        down()
+
+        right(55.01)
+
+        forward(122.07)
+        up()
+
+        right(124.99)
+
+        forward(70)
+        down()
+
+        right(124.99)
+
+        forward(122.07)
+        up()
+
+        right(55.01)
+
+        forward(15)
+
+    elif txt[i]=='Y':
+        down()
+
+        right(48.81)
+
+        forward(53.15)
+
+        right(41.19)
+
+        forward(60)
+
+        right(180)
+
+        forward(60)
+
+        right(41.19)
+
+        forward(53.15)
+
+        up()
+
+        right(48.81)
+
+        forward(15)
+
+    elif txt[i]=='Z':
+        down()
+
+        forward(70)
+
+        right(124.99)
+
+        forward(122.07)
+
+        left(124.99)
+
+        forward(77)
+        up()
+
+        left(90)
+
+        forward(100)
+        right(90)
+        forward(15)
+
+    else :
+
+        print("caractère non supporté")
+
+        break
+
+    i=1+i
+
+mainloop()
